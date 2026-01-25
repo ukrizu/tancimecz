@@ -419,6 +419,19 @@
     text-align: center;
 }
 
+.logo-kudy-z-nudy {
+    display: flex;
+    justify-content: center;
+    bottom: -430px;
+    position: relative;
+}
+
+.kzn-logo {
+    width: clamp(140px, 25vw, 200px);
+    height: auto;
+    display: block;
+}
+
 /* Responsive Design */
 
 @media (max-width: 1268px) {
@@ -572,6 +585,10 @@
     .footer-text1 {
         top: 280px;
         font-size: 0.8em;
+    }
+
+    .kzn-logo {
+        width: clamp(140px, 25vw, 150px);
     }
 
 }
